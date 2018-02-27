@@ -22,7 +22,7 @@
         },
         "from": {
           "kind": "DockerImage",
-          "name": "bucharestgold/centos7-s2i-nodejs:8.x"
+          "name": "cowtongue/centos7-s2i-nodejs:8.x"
         }
       },
       {
@@ -37,7 +37,7 @@
         },
         "from": {
           "kind": "DockerImage",
-          "name": "bucharestgold/centos7-s2i-nodejs:9.x"
+          "name": "cowtongue/centos7-s2i-nodejs:9.x"
         }
       }
     ]
