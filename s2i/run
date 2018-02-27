@@ -31,6 +31,8 @@ run_node() {
     echo "Launching via nodemon..."
     exec npx nodemon --inspect="$DEBUG_PORT"
   else
+    echo "Installing dev dependencies..."
+    npm install -s
     echo "Launching via npm..."
     exec npm run -d $NPM_RUN
   fi
