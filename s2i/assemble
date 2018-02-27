@@ -52,7 +52,7 @@ else
 			exec npm install
 		else
 			echo "---> Using 'npm install --only=production'"
-			exec npm install --only=production
+			exec npm install
 		fi
 	fi
 fi
